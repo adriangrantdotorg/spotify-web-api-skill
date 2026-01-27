@@ -85,7 +85,8 @@ git clone https://github.com/adriangrantdotorg/spotify-web-api-skill.git ~/.gemi
 1. Download the [latest release](https://github.com/adriangrantdotorg/spotify-web-api-skill/releases)
 2. Extract the `spotify-web-api` folder
 3. Copy to the appropriate skills directory for your platform (see table above)
-4. Restart your AI assistant or reload the workspace
+4. Ensure `skill/spotify-web-api/SKILL.md` exists
+5. Restart your AI assistant or reload the workspace
 
 #### **Option 3: Claude.ai Upload**
 

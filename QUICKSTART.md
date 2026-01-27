@@ -123,7 +123,7 @@ every 10 seconds with the Page Visibility API pattern
 ```bash
 # In Claude Code terminal
 ls ~/.claude/skills/spotify-web-api
-# Should show: SKILL.md, README.md, etc.
+# Should show: skill/spotify-web-api/SKILL.md, README.md, etc.
 ```
 
 **For Claude.ai:**
@@ -190,7 +190,7 @@ Should I use the Web API or Web Playback SDK for my music player?
 
 **Solution:**
 1. Check the skill is in the correct directory
-2. Ensure SKILL.md exists in the folder
+2. Ensure skill/spotify-web-api/SKILL.md exists
 3. Restart your AI assistant
 4. Try mentioning the skill explicitly: "Use the Spotify Web API skill to..."
 

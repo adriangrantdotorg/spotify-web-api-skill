@@ -24,7 +24,7 @@ collaborative playlist permissions, which often causes developers to..."
 How would you like this feature to work?
 
 ```
-Example: "Add a new section to SKILL.md that covers:
+Example: "Add a new section to skill/spotify-web-api/SKILL.md that covers:
 - Permission scopes needed for collaborative playlists
 - Error handling for insufficient permissions
 - Best practices for prompting users to grant access"
@@ -62,7 +62,7 @@ If relevant, add visual representations of your feature idea.
 
 Which parts of the project would this feature impact?
 
-- [ ] SKILL.md (core skill definition)
+- [ ] skill/spotify-web-api/SKILL.md (core skill definition)
 - [ ] README.md (documentation)
 - [ ] Examples (new example needed)
 - [ ] Tests (new tests needed)

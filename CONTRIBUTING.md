@@ -94,9 +94,9 @@ Examples:
 
 ### 2. Make Your Changes
 
-#### Updating the Skill Definition (SKILL.md)
+#### Updating the Skill Definition (skill/spotify-web-api/SKILL.md)
 
-The `SKILL.md` file is the core of the skill. When modifying it:
+The `skill/spotify-web-api/SKILL.md` file is the core of the skill. When modifying it:
 
 - ✅ Keep instructions clear and actionable
 - ✅ Include code examples with comments
@@ -188,7 +188,7 @@ Write clear, descriptive commit messages:
 
 ```bash
 # Good commit messages
-git commit -m "Add: playlist batch operations pattern to SKILL.md"
+git commit -m "Add: playlist batch operations pattern to skill/spotify-web-api/SKILL.md"
 git commit -m "Fix: rate limit header parsing in Python example"
 git commit -m "Docs: clarify OAuth scope requirements"
 
@@ -286,7 +286,7 @@ Any other information that reviewers should know.
 
 ## 💅 Code Style Guidelines
 
-### SKILL.md Formatting
+### Skill Definition Formatting
 
 - Use `##` for main sections, `###` for subsections
 - Keep line length reasonable (80-100 characters for prose)
@@ -355,7 +355,7 @@ const getPollInterval = (isVisible) => {
 ### Intermediate
 
 - Add new code examples (e.g., playlist management, search functionality)
-- Implement additional best practices in SKILL.md
+- Implement additional best practices in skill/spotify-web-api/SKILL.md
 - Create integration tests for examples
 - Write a blog post or tutorial using the skill
 - Improve error handling patterns
@@ -364,7 +364,7 @@ const getPollInterval = (isVisible) => {
 
 - Add support for advanced Spotify features (Markets, Recommendations)
 - Create comprehensive test suite with mocked API responses
-- Build a skill analyzer tool that validates SKILL.md format
+- Build a skill analyzer tool that validates skill/spotify-web-api/SKILL.md format
 - Develop CI/CD workflows for automated testing
 - Research and document performance optimizations
 

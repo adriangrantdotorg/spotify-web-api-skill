@@ -76,7 +76,7 @@ Result: [Describe outcome]
 
 <!-- Check all that apply -->
 
-- [ ] Updated SKILL.md
+- [ ] Updated skill/spotify-web-api/SKILL.md
 - [ ] Updated README.md
 - [ ] Updated CONTRIBUTING.md
 - [ ] Added/updated code comments
