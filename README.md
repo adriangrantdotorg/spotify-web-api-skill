@@ -186,7 +186,7 @@ Encountered a problem or have a suggestion?
 
 - **Bug Reports**: [Open an issue](https://github.com/adriangrantdotorg/spotify-web-api-skill/issues/new?template=bug_report.md)
 - **Feature Requests**: [Request a feature](https://github.com/adriangrantdotorg/spotify-web-api-skill/issues/new?template=feature_request.md)
-- **Discussions**: [Join the discussion](https://github.com/adriangrantdotorg/spotify-web-api-skill/discussions)
+- **Issues**: [View Issues](https://github.com/adriangrantdotorg/spotify-web-api-skill/issues)
 
 ---
 
