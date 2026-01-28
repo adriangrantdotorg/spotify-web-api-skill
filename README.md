@@ -4,7 +4,7 @@
 
 > An Agent Skill for the Spotify Web API that teaches AI agents best practices for building robust, rate-limit-aware applications.
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
 [![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Google-blue)](https://github.com/google-gemini/gemini-cli)
 [![Codex CLI](https://img.shields.io/badge/Codex%20CLI-OpenAI-green)](https://github.com/openai/codex)
@@ -51,15 +51,15 @@ This skill follows the [Agent Skills open standard](https://github.com/anthropic
 
 ### Quick Reference Table
 
-| **Platform** | **Type** | **Installation Path** | **Invocation** |
-|-------------|----------|----------------------|----------------|
-| **Claude Code** | CLI | `~/.claude/skills/spotify-web-api/` | `Use the Spotify Web API skill...` or `/spotify-web-api` |
-| **Claude.ai** | Web | Upload via Settings → Skills | Automatically invoked when relevant |
-| **Google Antigravity** | IDE | `.agent/skills/spotify-web-api/` | Automatically invoked when relevant |
-| **OpenCode** | IDE | `~/.config/opencode/skills/spotify-web-api/` | `skill({ name: "spotify-web-api" })` |
-| **Cursor IDE** | IDE | `.cursor/skills/spotify-web-api/` | Mentioned in chat with `@spotify-web-api` |
-| **OpenAI Codex** | CLI | `~/.codex/skills/spotify-web-api/` | Automatically invoked when relevant |
-| **Gemini CLI** | CLI | `~/.gemini/skills/spotify-web-api/` | Automatically invoked when relevant |
+| **Platform**           | **Type** | **Installation Path**                        | **Invocation**                                           |
+| ---------------------- | -------- | -------------------------------------------- | -------------------------------------------------------- |
+| **Claude Code**        | CLI      | `~/.claude/skills/spotify-web-api/`          | `Use the Spotify Web API skill...` or `/spotify-web-api` |
+| **Claude.ai**          | Web      | Upload via Settings → Skills                 | Automatically invoked when relevant                      |
+| **Google Antigravity** | IDE      | `.agent/skills/spotify-web-api/`             | Automatically invoked when relevant                      |
+| **OpenCode**           | IDE      | `~/.config/opencode/skills/spotify-web-api/` | `skill({ name: "spotify-web-api" })`                     |
+| **Cursor IDE**         | IDE      | `.cursor/skills/spotify-web-api/`            | Mentioned in chat with `@spotify-web-api`                |
+| **OpenAI Codex**       | CLI      | `~/.codex/skills/spotify-web-api/`           | Automatically invoked when relevant                      |
+| **Gemini CLI**         | CLI      | `~/.gemini/skills/spotify-web-api/`          | Automatically invoked when relevant                      |
 
 ### Detailed Installation Instructions
 
@@ -113,6 +113,7 @@ Once installed, your AI agent will automatically apply these best practices when
 ```
 
 The agent will:
+
 - Configure `spotipy` with fail-fast retry settings
 - Implement 429 error handling with `Retry-After` extraction
 - Add user-friendly countdown UI for rate limit waits
@@ -124,6 +125,7 @@ The agent will:
 ```
 
 The agent will:
+
 - Implement the Page Visibility API pattern
 - Adjust polling from 10s (active) to 60s (hidden tab)
 - Use `limit=50` for any list fetches
@@ -135,6 +137,7 @@ The agent will:
 ```
 
 The agent will:
+
 - Audit retry configurations
 - Check for proper error handling
 - Suggest smart polling improvements
@@ -191,18 +194,8 @@ Encountered a problem or have a suggestion?
 
 - **Bug Reports**: [Open an issue](https://github.com/adriangrantdotorg/spotify-web-api-skill/issues/new?template=bug_report.md)
 - **Feature Requests**: [Request a feature](https://github.com/adriangrantdotorg/spotify-web-api-skill/issues/new?template=feature_request.md)
-- **Issues**: [View Issues](https://github.com/adriangrantdotorg/spotify-web-api-skill/issues)
 
 ---
-
-## ⭐ Show Your Support
-
-If this skill helped you build better Spotify integrations, please give it a star - thanks! ⭐
-
----
-
-
-
 
 <div align="center">
   <sub>Built with ❤️ for Music Lovers & the Open Source Community ✌🏾</sub>
